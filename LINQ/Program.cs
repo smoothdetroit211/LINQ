@@ -17,7 +17,7 @@ namespace LINQ
             var book = books.First(b => b.Title == "C# Advanced Topics");
 
             Console.WriteLine(book.Title + " " + book.Price);
-            Console.WriteLine(book == null);
+            //Console.WriteLine(book == null);
 
         }
     }
